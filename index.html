@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="title">
+        <h1>Simple calculator</h1>
+    </div>
+    <div class="container">
+        <div class="calculator calculator_keys">
+        <div class="top">
+        <div id="display" class="calculator_display">0</div>
+        <button class="button clear" data-type="clear">C</button>
+        </div>
+        <div class="buttons">
+            <div class="topRow">
+            <button class="button seven" data-type="number">7</button>
+            <button class="button eight" data-type="number">8</button>
+            <button class="button nine" data-type="number">9</button>
+            <button class="button" data-key="divide" data-type="operator">÷</button>
+            </div>
+            <div class="middleTopRow">
+            <button class="button four" data-type="number">4</button>
+            <button class="button five" data-type="number">5</button>
+            <button class="button six" data-type="number">6</button>
+            <button class="button" data-key="times" data-type="operator">×</button>
+            </div>
+            <div class="middleBottomRow">
+            <button class="button one" data-type="number">1</button>
+            <button class="button two" data-type="number">2</button>
+            <button class="button three" data-type="number">3</button>
+            <button class="button" data-key="minus" data-type="operator">-</button>
+            </div>
+            <div class="bottomRow">
+            <button class="button zero" data-type="number">0</button>
+            <button class="button decimal" data-type="number">.</button>
+            <button class="button" data-key="plus" data-type="operator">+</button>
+            <button class="button equal" data-type="equal" id="equal">=</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
